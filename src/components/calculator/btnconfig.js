@@ -27,9 +27,39 @@ export const btns = [
         class: 'btn__op'
     },
     {
+        display: '7',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
+        display: '8',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
+        display: '9',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
         display: 'X',
         action: BTN_ACTIONS.DELETE,
         class: 'btn__op'
+    },
+    {
+        display: '4',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
+        display: '5',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
+        display: '6',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
     },
     {
         display: '-',
@@ -37,7 +67,32 @@ export const btns = [
         class: 'btn__op'
     },
     {
+        display: '1',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
+        display: '2',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
+        display: '3',
+        action: BTN_ACTIONS.DELETE,
+        class: ''
+    },
+    {
         display: '+',
+        action: BTN_ACTIONS.DELETE,
+        class: 'btn__op'
+    },
+    {
+        display: '☀️',
+        action: BTN_ACTIONS.THEME,
+        class: 'btn__op'
+    },
+        {
+        display: '0',
         action: BTN_ACTIONS.DELETE,
         class: 'btn__op'
     },
@@ -49,61 +104,6 @@ export const btns = [
     {
         display: '=',
         action: BTN_ACTIONS.CALC,
-        class: 'btn__op'
-    },
-    {
-        display: '9',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '8',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '7',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '6',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '5',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '4',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '3',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '2',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '1',
-        action: BTN_ACTIONS.DELETE,
-        class: ''
-    },
-    {
-        display: '0',
-        action: BTN_ACTIONS.DELETE,
-        class: 'btn__op'
-    },
-    {
-        display: '☀️',
-        action: BTN_ACTIONS.THEME,
         class: 'btn__op'
     },
 ]
